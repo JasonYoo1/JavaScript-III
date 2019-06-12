@@ -39,7 +39,7 @@ let Person = function(name, state){
             console.log(this.name + ' ' + this.state)
         },
         friend: {
-            name: 'Jenn',
+            name: 'Bob',
             state: 'Korea',
             introduce: function(){
                 console.log(this.name + ' ' + this.state)
